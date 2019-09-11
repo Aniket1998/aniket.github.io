@@ -1,34 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Aniket Das</title>
+    <title>Tags | Academic</title>
     <link>https://aniket1998.github.io/tags/</link>
-    <description>Recent content in Tags on Aniket Das</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Aniket Das</copyright>
-    <lastBuildDate>Sun, 07 Oct 2018 00:00:00 +0530</lastBuildDate>
-    
-	<atom:link href="https://aniket1998.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Computer Vision</title>
-      <link>https://aniket1998.github.io/tags/computer-vision/</link>
-      <pubDate>Sun, 07 Oct 2018 00:00:00 +0530</pubDate>
-      
-      <guid>https://aniket1998.github.io/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NLP</title>
-      <link>https://aniket1998.github.io/tags/nlp/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
-      
-      <guid>https://aniket1998.github.io/tags/nlp/</guid>
-      <description></description>
-    </item>
+      <atom:link href="https://aniket1998.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://aniket1998.github.io/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>https://aniket1998.github.io/tags/</link>
+    </image>
     
   </channel>
 </rss>
