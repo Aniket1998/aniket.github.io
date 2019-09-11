@@ -102,6 +102,11 @@
   </url>
   
   <url>
+    <loc>https://aniket1998.github.io/publication/1wacv/</loc>
+    <lastmod>2017-01-01T00:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://aniket1998.github.io/project/4cfd/</loc>
     <lastmod>2016-04-27T00:00:00+05:30</lastmod>
   </url>
@@ -143,6 +148,12 @@
   
   <url>
     <loc>https://aniket1998.github.io/publication_types/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aniket1998.github.io/publication/</loc>
+    <lastmod>2017-01-01T00:00:00+05:30</lastmod>
     <priority>0</priority>
   </url>
   
