@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Aniket Das</title>
-    <link>https://aniket1998.github.io/publication/</link>
-      <atom:link href="https://aniket1998.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
+    <title>Yatin Dandi | Aniket Das</title>
+    <link>https://aniket1998.github.io/authors/yatin-dandi/</link>
+      <atom:link href="https://aniket1998.github.io/authors/yatin-dandi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yatin Dandi</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 11 Sep 2019 07:04:00 +0530</lastBuildDate>
     <image>
       <url>https://aniket1998.github.io/img/icon-192.png</url>
-      <title>Publications</title>
-      <link>https://aniket1998.github.io/publication/</link>
+      <title>Yatin Dandi</title>
+      <link>https://aniket1998.github.io/authors/yatin-dandi/</link>
     </image>
     
     <item>
