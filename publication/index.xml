@@ -12,5 +12,14 @@
 	<atom:link href="https://aniket1998.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Joint Image and Video Generation using Residual Vectors</title>
+      <link>https://aniket1998.github.io/publication/1wacv/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0530</pubDate>
+      
+      <guid>https://aniket1998.github.io/publication/1wacv/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
