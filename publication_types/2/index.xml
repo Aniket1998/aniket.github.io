@@ -5,7 +5,7 @@
     <link>https://aniket1998.github.io/publication_types/2/</link>
       <atom:link href="https://aniket1998.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 11 Sep 2019 07:23:54 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 08 Sep 2019 07:23:54 +0530</lastBuildDate>
     <image>
       <url>https://aniket1998.github.io/img/icon-192.png</url>
       <title>2</title>
@@ -14,10 +14,11 @@
     
     <item>
       <title>TorchGAN: A Flexible Framework for GAN Training and Evaluation</title>
-      <link>https://aniket1998.github.io/publication/2torchgan/</link>
-      <pubDate>Wed, 11 Sep 2019 07:23:54 +0530</pubDate>
-      <guid>https://aniket1998.github.io/publication/2torchgan/</guid>
-      <description></description>
+      <link>https://aniket1998.github.io/publication/1torchgan/</link>
+      <pubDate>Sun, 08 Sep 2019 07:23:54 +0530</pubDate>
+      <guid>https://aniket1998.github.io/publication/1torchgan/</guid>
+      <description>&lt;p&gt;TorchGAN is a PyTorch based framework for writing succinct and comprehensible code for training and evaluation of Generative Adversarial Networks. The framework&amp;rsquo;s modular design allows effortless customization of the model architecture, loss functions, training paradigms, and evaluation metrics and its features bear almost zero overhead over vanilla PyTorch. Currently submitted to &lt;em&gt;Journal of Machine Learning Research: Machine Learning Open Source Software (JMLR MLOSS)&lt;/em&gt;. An arXiv preprint is available &lt;a href=&#34;https://arxiv.org/pdf/1909.03410.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
