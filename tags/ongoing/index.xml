@@ -21,5 +21,14 @@
 </description>
     </item>
     
+    <item>
+      <title>Online Kernel Learning and Optimization Algorithms in RKHS</title>
+      <link>https://aniket1998.github.io/project/1ketan/</link>
+      <pubDate>Fri, 06 Sep 2019 02:25:03 +0530</pubDate>
+      <guid>https://aniket1998.github.io/project/1ketan/</guid>
+      <description>&lt;p&gt;An investigation into algorithms for functional optimization in Reproducing Kernel Hilbert Spaces and the problem of scaling kernel learning and nonparametric function approximation to streaming data. I am currently surveying the literature on Online Kernel Learning and Nonparametric Stochastic Optimization&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
