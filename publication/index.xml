@@ -26,8 +26,7 @@
       <link>https://aniket1998.github.io/publication/1torchgan/</link>
       <pubDate>Sun, 08 Sep 2019 07:23:54 +0530</pubDate>
       <guid>https://aniket1998.github.io/publication/1torchgan/</guid>
-      <description>&lt;p&gt;TorchGAN is a PyTorch based framework for writing succinct and comprehensible code for training and evaluation of Generative Adversarial Networks. The framework&amp;rsquo;s modular design allows effortless customization of the model architecture, loss functions, training paradigms, and evaluation metrics and its features bear almost zero overhead over vanilla PyTorch. Currently submitted to &lt;em&gt;Journal of Machine Learning Research: Machine Learning Open Source Software (JMLR MLOSS)&lt;/em&gt;. An arXiv preprint is available &lt;a href=&#34;https://arxiv.org/pdf/1909.03410.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>
