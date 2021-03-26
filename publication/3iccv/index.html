@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="It is desirable to learn image generation models whose latent space effectively captures the high-level factors of variation present in the data distribution. The extent to which a model represents such variations through its latent space can be judged by its ability to interpolate between images smoothly. However, most generative models mapping a fixed prior to the generated images lead to interpolation trajectories lacking smoothness and containing images of reduced quality. In this work, we propose a novel approach for training Generative Adversarial Networks that learns a flexible non-parametric prior over interpolation trajectories, conditioned on a pair of source and target images. Instead of relying on deterministic interpolation methods (such as linear or spherical interpolation in latent space), we devise a framework that learns a distribution of trajectories between two given images using Latent Second-Order Neural Ordinary Differential Equations. Through a hybrid combination of reconstruction and adversarial losses, the generator is trained to map the sampled points from these trajectories to sequences of realistic images that smoothly transition from the source to the target image. Through comprehensive qualitative and quantitative experiments, we demonstrate our approach’s effectiveness in generating images of improved quality as well as its ability to learn a diverse distribution over smooth interpolation trajectories for any pair of real source and target images.">
+  <meta name="description" content="We propose a generative model for images that learns a distribution of continuous-time interpolation trajectories for a given source-target pair, and generates images by subsampling random interpolation curves drawn from the trajectory distribution. The conditional distribution of interpolation trajectories is parameterised by Second Order Neural ODEs">
 
   
   <link rel="alternate" hreflang="en-us" href="https://aniket1998.github.io/publication/3iccv/">
@@ -101,16 +101,15 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Aniket Das">
   <meta property="og:url" content="https://aniket1998.github.io/publication/3iccv/">
   <meta property="og:title" content="NeurInt : Learning to Interpolate through Neural ODEs | Aniket Das">
-  <meta property="og:description" content="It is desirable to learn image generation models whose latent space effectively captures the high-level factors of variation present in the data distribution. The extent to which a model represents such variations through its latent space can be judged by its ability to interpolate between images smoothly. However, most generative models mapping a fixed prior to the generated images lead to interpolation trajectories lacking smoothness and containing images of reduced quality. In this work, we propose a novel approach for training Generative Adversarial Networks that learns a flexible non-parametric prior over interpolation trajectories, conditioned on a pair of source and target images. Instead of relying on deterministic interpolation methods (such as linear or spherical interpolation in latent space), we devise a framework that learns a distribution of trajectories between two given images using Latent Second-Order Neural Ordinary Differential Equations. Through a hybrid combination of reconstruction and adversarial losses, the generator is trained to map the sampled points from these trajectories to sequences of realistic images that smoothly transition from the source to the target image. Through comprehensive qualitative and quantitative experiments, we demonstrate our approach’s effectiveness in generating images of improved quality as well as its ability to learn a diverse distribution over smooth interpolation trajectories for any pair of real source and target images."><meta property="og:image" content="https://aniket1998.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://aniket1998.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="We propose a generative model for images that learns a distribution of continuous-time interpolation trajectories for a given source-target pair, and generates images by subsampling random interpolation curves drawn from the trajectory distribution. The conditional distribution of interpolation trajectories is parameterised by Second Order Neural ODEs"><meta property="og:image" content="https://aniket1998.github.io/publication/3iccv/featured.png">
+  <meta property="twitter:image" content="https://aniket1998.github.io/publication/3iccv/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2021-03-27T02:36:06&#43;05:30">
@@ -148,10 +147,14 @@
   },
   "headline": "NeurInt : Learning to Interpolate through Neural ODEs",
   
+  "image": [
+    "https://aniket1998.github.io/publication/3iccv/featured.png"
+  ],
+  
   "datePublished": "2021-03-27T02:36:06+05:30",
   "dateModified": "2021-03-27T02:36:06+05:30",
   
-  "description": "It is desirable to learn image generation models whose latent space effectively captures the high-level factors of variation present in the data distribution. The extent to which a model represents such variations through its latent space can be judged by its ability to interpolate between images smoothly. However, most generative models mapping a fixed prior to the generated images lead to interpolation trajectories lacking smoothness and containing images of reduced quality. In this work, we propose a novel approach for training Generative Adversarial Networks that learns a flexible non-parametric prior over interpolation trajectories, conditioned on a pair of source and target images. Instead of relying on deterministic interpolation methods (such as linear or spherical interpolation in latent space), we devise a framework that learns a distribution of trajectories between two given images using Latent Second-Order Neural Ordinary Differential Equations. Through a hybrid combination of reconstruction and adversarial losses, the generator is trained to map the sampled points from these trajectories to sequences of realistic images that smoothly transition from the source to the target image. Through comprehensive qualitative and quantitative experiments, we demonstrate our approach’s effectiveness in generating images of improved quality as well as its ability to learn a diverse distribution over smooth interpolation trajectories for any pair of real source and target images."
+  "description": "We propose a generative model for images that learns a distribution of continuous-time interpolation trajectories for a given source-target pair, and generates images by subsampling random interpolation curves drawn from the trajectory distribution. The conditional distribution of interpolation trajectories is parameterised by Second Order Neural ODEs"
 }
 </script>
 
@@ -438,18 +441,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
+    
   
+
+
 <div class="article-container pt-3">
   <h1>NeurInt : Learning to Interpolate through Neural ODEs</h1>
 
   
 
   
-    
 
 
 
@@ -582,22 +593,29 @@
 
 </div>
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 365px;">
+  <div style="position: relative">
+    <img src="/publication/3iccv/featured_hu83083ecd5c690caccf380f009da2c143_250427_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
