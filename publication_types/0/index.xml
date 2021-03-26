@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 | Aniket Das</title>
+    <link>https://aniket1998.github.io/publication_types/0/</link>
+      <atom:link href="https://aniket1998.github.io/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 27 Mar 2021 03:51:32 +0530</lastBuildDate>
+    <image>
+      <url>https://aniket1998.github.io/img/icon-192.png</url>
+      <title>0</title>
+      <link>https://aniket1998.github.io/publication_types/0/</link>
+    </image>
+    
+    <item>
+      <title>Missing Data Imputation at Edge through Continuous-Discrete Bayesian Filtering of Stochastic Differential Equations</title>
+      <link>https://aniket1998.github.io/publication/0sdekalman/</link>
+      <pubDate>Sat, 27 Mar 2021 03:51:32 +0530</pubDate>
+      <guid>https://aniket1998.github.io/publication/0sdekalman/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
