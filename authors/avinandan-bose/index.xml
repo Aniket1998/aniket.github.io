@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yatin Dandi | Aniket Das</title>
-    <link>https://aniket1998.github.io/authors/yatin-dandi/</link>
-      <atom:link href="https://aniket1998.github.io/authors/yatin-dandi/index.xml" rel="self" type="application/rss+xml" />
-    <description>Yatin Dandi</description>
+    <title>Avinandan Bose | Aniket Das</title>
+    <link>https://aniket1998.github.io/authors/avinandan-bose/</link>
+      <atom:link href="https://aniket1998.github.io/authors/avinandan-bose/index.xml" rel="self" type="application/rss+xml" />
+    <description>Avinandan Bose</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 27 Mar 2021 02:36:06 +0530</lastBuildDate>
     <image>
       <url>https://aniket1998.github.io/img/icon-192.png</url>
-      <title>Yatin Dandi</title>
-      <link>https://aniket1998.github.io/authors/yatin-dandi/</link>
+      <title>Avinandan Bose</title>
+      <link>https://aniket1998.github.io/authors/avinandan-bose/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://aniket1998.github.io/publication/3iccv/</link>
       <pubDate>Sat, 27 Mar 2021 02:36:06 +0530</pubDate>
       <guid>https://aniket1998.github.io/publication/3iccv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Joint Image and Video Generation using Residual Vectors</title>
-      <link>https://aniket1998.github.io/publication/2wacv/</link>
-      <pubDate>Wed, 11 Sep 2019 07:04:00 +0530</pubDate>
-      <guid>https://aniket1998.github.io/publication/2wacv/</guid>
       <description></description>
     </item>
     
