@@ -5,7 +5,7 @@
     <link>https://aniket1998.github.io/project/</link>
       <atom:link href="https://aniket1998.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 07 Sep 2019 02:24:53 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Mar 2021 10:41:09 +0530</lastBuildDate>
     <image>
       <url>https://aniket1998.github.io/img/icon-192.png</url>
       <title>Projects</title>
@@ -13,20 +13,24 @@
     </image>
     
     <item>
-      <title>Stein&#39;s Method in ML: Theory and Applications</title>
-      <link>https://aniket1998.github.io/project/0stein/</link>
-      <pubDate>Sat, 07 Sep 2019 02:24:53 +0530</pubDate>
-      <guid>https://aniket1998.github.io/project/0stein/</guid>
-      <description>&lt;p&gt;Exploring avenues such as Amortized MCMC, Functional KL Minimization for Nonparametric Models, and optimization in Natural Parameter Space where employing Stein’s Method for Variational Inference or Gradient Estimation may lead to improvements. I am currently surveying the literature of Stein Gradient Estimators, Amortized MCMC Algorithms, and state of the art Natural Gradient and “Inference via Weight Perturbation” methods such as K-FAC and its variants, VADAM and VProp&lt;/p&gt;
+      <title>Continuous-Discrete Bayesian Filtering for Stochastic Differential Equations</title>
+      <link>https://aniket1998.github.io/project/1sde/</link>
+      <pubDate>Tue, 30 Mar 2021 10:41:09 +0530</pubDate>
+      <guid>https://aniket1998.github.io/project/1sde/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Supervisor&lt;/strong&gt;: &lt;a href=&#34;https://users.aalto.fi/~ssarkka/&#34; target=&#34;_blank&#34;&gt;Prof. Simo Särkkä&lt;/a&gt;, Aalto University&lt;/p&gt;
+
+&lt;p&gt;As part of the term project for Aalto University&amp;rsquo;s course on State Space Models, titled &lt;a href=&#34;https://mycourses.aalto.fi/course/view.php?id=20984%C2%A7ion=1&#34; target=&#34;_blank&#34;&gt;Non-linear Filtering and Parameter Estimation&lt;/a&gt;, I investigated the continuous-time Bayesian Filtering problem for continuous-time State Space Models governed by Stochastic Differential Equations. I studied the theory of continuous-time Markov Chains, Brownian Motion, Ito Calculus and and the Fokker Planck PDE. I also studied the Kushner-Stratonovic and Zakai Equations for likelihood calculations in SDE models. Finally, I studied and implemented exact and approximate Kalman Filters for Continuous-Discrete State Space Models, which are a special class of SDE based SSMs where the State Transition model is an SDE, and the observation model is discrete-time but may be non-uniform. The project report is available &lt;a href=&#34;https://aniket1998.github.io/files/sde_filter.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and the implementations are available in this &lt;a href=&#34;https://github.com/Aniket1998/SDE-Filtering&#34; target=&#34;_blank&#34;&gt;GitHub repository&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Online Kernel Learning and Optimization Algorithms in RKHS</title>
-      <link>https://aniket1998.github.io/project/1ketan/</link>
-      <pubDate>Fri, 06 Sep 2019 02:25:03 +0530</pubDate>
-      <guid>https://aniket1998.github.io/project/1ketan/</guid>
-      <description>&lt;p&gt;An investigation into algorithms for functional optimization in Reproducing Kernel Hilbert Spaces and the problem of scaling kernel learning and nonparametric function approximation to streaming data. I am currently surveying the literature on Online Kernel Learning and Nonparametric Stochastic Optimization&lt;/p&gt;
+      <title>Nonparametric Models for Image Generation and Interpolation</title>
+      <link>https://aniket1998.github.io/project/1iccv/</link>
+      <pubDate>Tue, 30 Mar 2021 10:24:40 +0530</pubDate>
+      <guid>https://aniket1998.github.io/project/1iccv/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Supervisor&lt;/strong&gt;: &lt;a href=&#34;https://www.cse.iitk.ac.in/users/piyush/&#34; target=&#34;_blank&#34;&gt;Prof. Piyush Rai&lt;/a&gt;, IIT Kanpur&lt;/p&gt;
+
+&lt;p&gt;We developed a generative model for images that uses Probabilistic Second Order Neural ODEs to learn a distribution of smooth continuous-time interpolation trajectories for a given source-target pair, and generates individual images by temporal subsampling of random interpolation curves that are drawn from the conditional (conditioned on the source-target pair) distribution of trajectories. The resultant model was formulated as a modified Generative Adversarial Network with a non-parametric data dependent latent code prior. We qualitatively and quantitatively demonstrated that our non-parametric approach significantly outperforms baseline GAN and Bidirectional GAN models that impose a fixed prior on the latent code, on both image generation and interpolation. Furthermore, our approach also allowed conditional generation and interpolation on out-of-sample data at test-time, with zero training overhead. This work is currently submitted to the International Conference on Computer Vision (ICCV) 2021, and a preprint shall be made available soon.&lt;/p&gt;
 </description>
     </item>
     
@@ -35,7 +39,9 @@
       <link>https://aniket1998.github.io/project/3wacv/</link>
       <pubDate>Sat, 16 Feb 2019 02:22:35 +0530</pubDate>
       <guid>https://aniket1998.github.io/project/3wacv/</guid>
-      <description>&lt;p&gt;Worked on developing a hierarchical model that first generates a summary frame for the video, and then models individual frames by adding to the summary frame&amp;rsquo;s latent code, sequentially dependent residual vectors conditioned on the summary frame. Further extended this idea to video generation models that disentangle content from dynamics, by adding to the base content representation, a residual vector at each timestep conditioned on the base content vector and the dynamics of the given timestep. We achieved significant improvements over the respective baselines for both video and image generation and the work is currently submitted to the Winter Conference on the Applications of Computer Vision 2020 (WACV 2020)&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Supervisors&lt;/strong&gt;:  &lt;a href=&#34;https://www.cse.iitk.ac.in/users/piyush/&#34; target=&#34;_blank&#34;&gt;Prof. Piyush Rai&lt;/a&gt; and &lt;a href=&#34;https://vinaypn.github.io/&#34; target=&#34;_blank&#34;&gt;Prof. Vinay Namboodiri&lt;/a&gt;, IIT Kanpur&lt;/p&gt;
+
+&lt;p&gt;We developed a hierarchical probabilistic model for joint image and video generation that first generates a summary frame for the video and then models individual frames by adding residual vectors to the summary frame&amp;rsquo;s latent representation at each timestep. We then developed an analogous hierarchy for models that disentangle content from motion by adding a residual content vector to the content summary representation at each timestep. We designed both VAE and GAN implementations of our proposed models and achieved significant improvements on quantitative metrics and human evaluation scores against appropriate image generation and video generation baseline. &lt;a href=&#34;https://openaccess.thecvf.com/content_WACV_2020/html/Dandi_Jointly_Trained_Image_and_Video_Generation_using_Residual_Vectors_WACV_2020_paper.html&#34; target=&#34;_blank&#34;&gt;Our work is published&lt;/a&gt; at the Winter Conference on the Applications of Computer Vision 2020&lt;/p&gt;
 </description>
     </item>
     
@@ -44,7 +50,8 @@
       <link>https://aniket1998.github.io/project/2torchgan/</link>
       <pubDate>Sun, 16 Sep 2018 02:22:41 +0530</pubDate>
       <guid>https://aniket1998.github.io/project/2torchgan/</guid>
-      <description></description>
+      <description>&lt;p&gt;I co-developed TorchGAN, a lightweight customizable PyTorch framework for training and evaluation of Generative Adversarial Networks. This enjoyable passion project involved me embarking on a thorough survey of the GAN literature and writing  efficient implementations of various GAN models, losses, evaluation metrics and stability enhancement features, all packaged into a highly customizable framework for effortlessly using them off-the-shelf or extending them. The &lt;a href=&#34;https://github.com/torchgan/torchgan&#34; target=&#34;_blank&#34;&gt;GitHub Repository&lt;/a&gt; currently has over 1200 stars and a &lt;a href=&#34;https://arxiv.org/abs/1909.03410&#34; target=&#34;_blank&#34;&gt;paper&lt;/a&gt; is currently submitted to the Journal of Open Source Software (JOSS)&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -52,7 +59,9 @@
       <link>https://aniket1998.github.io/project/4nsriv/</link>
       <pubDate>Wed, 16 May 2018 02:25:14 +0530</pubDate>
       <guid>https://aniket1998.github.io/project/4nsriv/</guid>
-      <description>&lt;p&gt;Aimed to characterize the nature and granularity of information about social interactions accessible to human observers from simple visual displays. Studied lay theories of human emotion modelling and developed a computational model for social situations involving few agents, based on the Valence Arousal Model of emotion detection and the Social Force Model for Pedestrian Dynamics&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Supervisor&lt;/strong&gt;: &lt;a href=&#34;https://www.cse.iitk.ac.in/users/nsrivast/&#34; target=&#34;_blank&#34;&gt;Prof. Nisheeth Srivastava&lt;/a&gt;, IIT Kanpur&lt;/p&gt;
+
+&lt;p&gt;The aim of the project was to characterize the nature and granularity of information about social interactions accessible to human observers from simple visual displays. To this end, we studied lay theories of human emotion modelling and developed a computational model for social situations involving few agents, based on the Valence Arousal Model of emotion detection and the Social Force Model for Pedestrian Dynamics&lt;/p&gt;
 </description>
     </item>
     
@@ -61,7 +70,7 @@
       <link>https://aniket1998.github.io/project/5pclub/</link>
       <pubDate>Mon, 16 Apr 2018 02:25:19 +0530</pubDate>
       <guid>https://aniket1998.github.io/project/5pclub/</guid>
-      <description>&lt;p&gt;Studied the theory of encoder decoder sequence models, soft attention and hard attention and reproduced the results in &lt;a href=&#34;https://arxiv.org/pdf/1502.03044.pdf&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Show Attend and Tell : Neural Image Caption Generation with Visual Attention&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;As part of a summer project offered by Programming Club, IIT Kanpur, I studied the theory of encoder decoder sequence models, soft attention and hard attention and reproduced the results in &lt;a href=&#34;https://arxiv.org/pdf/1502.03044.pdf&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Show Attend and Tell : Neural Image Caption Generation with Visual Attention&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -70,7 +79,7 @@
       <link>https://aniket1998.github.io/project/6cfd/</link>
       <pubDate>Sat, 16 Dec 2017 02:25:24 +0530</pubDate>
       <guid>https://aniket1998.github.io/project/6cfd/</guid>
-      <description>&lt;p&gt;Developed a legal consultant bot that summarises a legal document, highlights the key phrases and answers some rudimentary questions about the document as part of the Microsoft code.fun.do Hackathon on AI and NLP. Created a custom dataset by scrapinng from an archive of Indian legal documents, and Used TextRank Algorithm on the large text corpora and Latent Dirichlet Allocation for topic modelling. Selected as one of the top 3 ideas on campus by Microsoft Judges&lt;/p&gt;
+      <description>&lt;p&gt;I developed a legal consultant bot that summarises a legal document, highlights the key phrases and answers some rudimentary questions about the document as part of the Microsoft code.fun.do Hackathon on AI and NLP. The task involved creating a custom dataset by scrapinng from an archive of Indian legal documents, and using the TextRank Algorithm and Latent Dirichlet Allocation on the large text corpora for topic modelling and extractive summarization. The project was selected as one of the top 3 ideas on campus by Microsoft India.&lt;/p&gt;
 </description>
     </item>
     

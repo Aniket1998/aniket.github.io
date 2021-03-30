@@ -17,7 +17,9 @@
       <link>https://aniket1998.github.io/project/4nsriv/</link>
       <pubDate>Wed, 16 May 2018 02:25:14 +0530</pubDate>
       <guid>https://aniket1998.github.io/project/4nsriv/</guid>
-      <description>&lt;p&gt;Aimed to characterize the nature and granularity of information about social interactions accessible to human observers from simple visual displays. Studied lay theories of human emotion modelling and developed a computational model for social situations involving few agents, based on the Valence Arousal Model of emotion detection and the Social Force Model for Pedestrian Dynamics&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Supervisor&lt;/strong&gt;: &lt;a href=&#34;https://www.cse.iitk.ac.in/users/nsrivast/&#34; target=&#34;_blank&#34;&gt;Prof. Nisheeth Srivastava&lt;/a&gt;, IIT Kanpur&lt;/p&gt;
+
+&lt;p&gt;The aim of the project was to characterize the nature and granularity of information about social interactions accessible to human observers from simple visual displays. To this end, we studied lay theories of human emotion modelling and developed a computational model for social situations involving few agents, based on the Valence Arousal Model of emotion detection and the Social Force Model for Pedestrian Dynamics&lt;/p&gt;
 </description>
     </item>
     
@@ -26,7 +28,7 @@
       <link>https://aniket1998.github.io/project/5pclub/</link>
       <pubDate>Mon, 16 Apr 2018 02:25:19 +0530</pubDate>
       <guid>https://aniket1998.github.io/project/5pclub/</guid>
-      <description>&lt;p&gt;Studied the theory of encoder decoder sequence models, soft attention and hard attention and reproduced the results in &lt;a href=&#34;https://arxiv.org/pdf/1502.03044.pdf&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Show Attend and Tell : Neural Image Caption Generation with Visual Attention&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;As part of a summer project offered by Programming Club, IIT Kanpur, I studied the theory of encoder decoder sequence models, soft attention and hard attention and reproduced the results in &lt;a href=&#34;https://arxiv.org/pdf/1502.03044.pdf&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Show Attend and Tell : Neural Image Caption Generation with Visual Attention&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -35,7 +37,7 @@
       <link>https://aniket1998.github.io/project/6cfd/</link>
       <pubDate>Sat, 16 Dec 2017 02:25:24 +0530</pubDate>
       <guid>https://aniket1998.github.io/project/6cfd/</guid>
-      <description>&lt;p&gt;Developed a legal consultant bot that summarises a legal document, highlights the key phrases and answers some rudimentary questions about the document as part of the Microsoft code.fun.do Hackathon on AI and NLP. Created a custom dataset by scrapinng from an archive of Indian legal documents, and Used TextRank Algorithm on the large text corpora and Latent Dirichlet Allocation for topic modelling. Selected as one of the top 3 ideas on campus by Microsoft Judges&lt;/p&gt;
+      <description>&lt;p&gt;I developed a legal consultant bot that summarises a legal document, highlights the key phrases and answers some rudimentary questions about the document as part of the Microsoft code.fun.do Hackathon on AI and NLP. The task involved creating a custom dataset by scrapinng from an archive of Indian legal documents, and using the TextRank Algorithm and Latent Dirichlet Allocation on the large text corpora for topic modelling and extractive summarization. The project was selected as one of the top 3 ideas on campus by Microsoft India.&lt;/p&gt;
 </description>
     </item>
     

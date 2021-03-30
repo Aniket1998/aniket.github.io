@@ -17,7 +17,9 @@
       <link>https://aniket1998.github.io/project/3wacv/</link>
       <pubDate>Sat, 16 Feb 2019 02:22:35 +0530</pubDate>
       <guid>https://aniket1998.github.io/project/3wacv/</guid>
-      <description>&lt;p&gt;Worked on developing a hierarchical model that first generates a summary frame for the video, and then models individual frames by adding to the summary frame&amp;rsquo;s latent code, sequentially dependent residual vectors conditioned on the summary frame. Further extended this idea to video generation models that disentangle content from dynamics, by adding to the base content representation, a residual vector at each timestep conditioned on the base content vector and the dynamics of the given timestep. We achieved significant improvements over the respective baselines for both video and image generation and the work is currently submitted to the Winter Conference on the Applications of Computer Vision 2020 (WACV 2020)&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Supervisors&lt;/strong&gt;:  &lt;a href=&#34;https://www.cse.iitk.ac.in/users/piyush/&#34; target=&#34;_blank&#34;&gt;Prof. Piyush Rai&lt;/a&gt; and &lt;a href=&#34;https://vinaypn.github.io/&#34; target=&#34;_blank&#34;&gt;Prof. Vinay Namboodiri&lt;/a&gt;, IIT Kanpur&lt;/p&gt;
+
+&lt;p&gt;We developed a hierarchical probabilistic model for joint image and video generation that first generates a summary frame for the video and then models individual frames by adding residual vectors to the summary frame&amp;rsquo;s latent representation at each timestep. We then developed an analogous hierarchy for models that disentangle content from motion by adding a residual content vector to the content summary representation at each timestep. We designed both VAE and GAN implementations of our proposed models and achieved significant improvements on quantitative metrics and human evaluation scores against appropriate image generation and video generation baseline. &lt;a href=&#34;https://openaccess.thecvf.com/content_WACV_2020/html/Dandi_Jointly_Trained_Image_and_Video_Generation_using_Residual_Vectors_WACV_2020_paper.html&#34; target=&#34;_blank&#34;&gt;Our work is published&lt;/a&gt; at the Winter Conference on the Applications of Computer Vision 2020&lt;/p&gt;
 </description>
     </item>
     
@@ -26,7 +28,8 @@
       <link>https://aniket1998.github.io/project/2torchgan/</link>
       <pubDate>Sun, 16 Sep 2018 02:22:41 +0530</pubDate>
       <guid>https://aniket1998.github.io/project/2torchgan/</guid>
-      <description></description>
+      <description>&lt;p&gt;I co-developed TorchGAN, a lightweight customizable PyTorch framework for training and evaluation of Generative Adversarial Networks. This enjoyable passion project involved me embarking on a thorough survey of the GAN literature and writing  efficient implementations of various GAN models, losses, evaluation metrics and stability enhancement features, all packaged into a highly customizable framework for effortlessly using them off-the-shelf or extending them. The &lt;a href=&#34;https://github.com/torchgan/torchgan&#34; target=&#34;_blank&#34;&gt;GitHub Repository&lt;/a&gt; currently has over 1200 stars and a &lt;a href=&#34;https://arxiv.org/abs/1909.03410&#34; target=&#34;_blank&#34;&gt;paper&lt;/a&gt; is currently submitted to the Journal of Open Source Software (JOSS)&lt;/p&gt;
+</description>
     </item>
     
   </channel>
